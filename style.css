@@ -1,0 +1,161 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Nunito Sans", sans-serif;
+ 
+ }
+a {
+  text-decoration: none;
+}
+
+.even {
+  transition: all .2s ease;
+  position: relative;
+}
+
+h6 {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  width: 93%;
+  margin-bottom: 0px;
+  display: none;
+
+}
+
+.even2 h6 {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  width: 96.5%;
+  margin-bottom: 0px;
+  display: none;
+
+}
+
+.even:hover {
+  transform: scale(1.05, 1.1);
+}
+
+.even img {
+  box-shadow: 0 1rem 3rem rgba(13, 20, 49, .175) !important;
+}
+
+.even:hover .heading {
+  display: block;
+  transition: all 7s ease-in 2s;
+}
+
+#navbarSupportedContent {
+  position: relative;
+}
+
+.rocket {
+  top: -37px;
+  position: absolute;
+  height: 40px;
+  width: 27px;
+}
+
+.rocket2 {
+  height: 120px;
+}
+
+.imagediv {
+  height: 5.5rem !important;
+  width: 5.5rem !important;
+}
+
+.cardbox i {
+  color: #ee5050;
+}
+
+.btn-dash {
+  background-color: #ee5050;
+}
+.btn-version2 {
+  background-color: #ee5050;
+}
+.btn-dash:hover {
+  background-color: #ee5050 !important;
+}
+.btn-dash2 {
+  background-color: #0948B3 !important;
+}
+.btn-version:hover .icon {
+  color: #0948B3 !important;
+}
+
+.btn {
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.disable-hover:hover {
+  transition: none;
+  transform: none;
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.wave1 {
+  height: 140px;
+  position: relative;
+  top: 10px;
+  background-image: url("wave.svg");
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
+.navbar1,.navbar2,
+.section-1,
+.bg-color {
+  background-color: #0948B3 !important;
+}
+
+.card-header {
+  border: none !important;
+  background-color: white !important;
+  border-bottom: 0.1px solid black !important;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:visited,
+.nav-link:hover {
+  color: white;
+}
+
+@media (max-width:991px) {
+  .header {
+
+    max-width: 100% !important;
+  }
+
+  .navbar-index {
+    background-color: white !important;
+  }
+
+  .navbar1, a {
+    color: #0948B3;
+  }
+  .nav-link {
+    color:#0948B3 !important;
+  }
+  .arrow-down{
+    margin-left: auto;
+    color:#0948B3 !important;
+  }
+}
